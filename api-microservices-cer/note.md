@@ -15,7 +15,6 @@
 ## 1. Managing Packages with Npm - How to Use package.json, the Core of Any Node.js Project or npm Package
 
 - The package.json file is the center of any Node.js project or npm package
-  https://boilerplate-npm-1.serin0837.repl.co
 
 ## 2. add a description to your package.json
 
