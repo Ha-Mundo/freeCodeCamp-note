@@ -139,3 +139,5 @@ app.get("/json", function (req, res) {
 - The .env file is a hidden file that is used to pass environment variables to your application.
 - it can be used to store data that you want to keep private or hidden.
 - The environment variables are accessible from the app as `process.env.VAR_NAME`
+
+## Conclusions
