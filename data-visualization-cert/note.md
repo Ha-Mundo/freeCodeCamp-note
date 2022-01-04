@@ -13,7 +13,23 @@
 
 ## 1. Handle Click Events with JavaScript using the onclick property
 
-## 2.
+```js
+      document.addEventListener('DOMContentLoaded', function(){
+        document.getElementById('getMessage').onclick = function(){
+          console.log("clicked");
+     }
+  });
+```
+
+## 2. Change Text with click Events
+
+```js
+     document.addEventListener('DOMContentLoaded', function(){
+        document.getElementById('getMessage').onclick = function(){
+           document.getElementsByClassName('message')[0].textContent="Here is the message";
+    }
+  });
+```
 
 ## 3. Get JSON with the JavaScript XMLHttpRequest Method
 
